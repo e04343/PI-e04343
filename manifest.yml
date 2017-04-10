@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PI-e04343
+  host: PI-e04343
+  disk_quota: 1024M
+  services:
+  - PI-e04343-personality_insights
